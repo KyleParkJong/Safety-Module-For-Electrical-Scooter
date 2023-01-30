@@ -68,5 +68,8 @@ Main Topic of the Hackaton
   * bump, stop sign, child protection zone sign
 
 <img src="/images/bump detected.png" width="50%" height="50%" title="bump" alt="bump"></img>
+<img src="/images/stop.png" width="50%" height="50%" title="bump" alt="bump"></img>
+<img src="/images/child.png" width="50%" height="50%" title="bump" alt="bump"></img>
+
 
 

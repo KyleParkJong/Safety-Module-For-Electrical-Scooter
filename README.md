@@ -3,13 +3,15 @@ Konkuk Univ. Hackaton (Feb 2023)
 
 Main Topic of the Hackaton
 ==========================
-> Developing and upgrading ideas that can solve problems that arise in the process of implementing future transportation by establishing a team under the theme of future transportation. (electric vehicles, hydrogen vehicles, autonomous AI, drones, UAM, individual transportation, etc)
+> *Developing and upgrading ideas that can solve problems that arise in the process of implementing future transportation by establishing a team under the theme of future transportation. (electric vehicles, hydrogen vehicles, autonomous AI, drones, UAM, individual transportation, etc)*
 
 Idea of our team
 -----------------
-> Detachable safety module for personal transportation
+> __Detachable safety module for personal transportation(Electrical scooter)__
 
+<p align="center">
 <img src="https://www.usfk.mil/portals/105/Images/Resources/Driving/eScooterKickboardSample2-SM_1.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="personal transportation"></img><br/>
+</p>
 
 # Conposition of the safty module
 * Object detection module (Detecting bump, stop sign, child protection zone sign)
@@ -33,4 +35,7 @@ Idea of our team
   + Operated 3D printer to make case that is detachable to electrical scooter.
   + Utilized lazer cutter to produce the additional case of Arduino module. 
 
-## Conclusion
+# Conclusion
+# Hardware
+![images](./images/hardware 1, "3d design of the hardware")
+![images](./images/hardware 2, "3d design of the hardware")

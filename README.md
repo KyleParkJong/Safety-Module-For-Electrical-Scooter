@@ -37,5 +37,5 @@ Idea of our team
 
 # Conclusion
 # Hardware
-![Alt text](/images/hardware 1.png "3d design of the hardware")
-![Alt text](/images/hardware 2.png "3d design of the hardware")
+![Alt text](/images/hardware1.png "3d design of the hardware")
+![Alt text](/images/hardware2.png "3d design of the hardware")

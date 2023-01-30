@@ -10,3 +10,27 @@ Idea of our team
 > Detachable safety module for personal transportation
 
 <img src="https://www.usfk.mil/portals/105/Images/Resources/Driving/eScooterKickboardSample2-SM_1.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="personal transportation"></img><br/>
+
+# Conposition of the safty module
+* Object detection module (Detecting bump, stop sign, child protection zone sign)
+* Preventing drunk driving module
+* Preventing one-handed driving module
+
+# Technical elements used in the safty module
+## Object detection module
+  + Used light-weight AI model (ssd-mobilenet-v2)
+  + Used Colab, Tensorflow to train the AI and transformed into Tensorflow-Lite
+  + Labeled, 500 photos per class, a total of 2000 photos
+  > Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
+    * 4 Classes (Bump1, bump2, stop sign, child protection zone sign)
+    * images
+  + Mounted the trained model on Raspberry Pi
+## Preventing drunk driving module & Preventing one-handed driving module
+  + Used Arduino Uno to implement
+  + Utilized Alcohol sensor (MQ-3) and force sensitive sensor (FSR 402)
+
+## Hardware
+  + Operated 3D printer to make case that is detachable to electrical scooter.
+  + Utilized lazer cutter to produce the additional case of Arduino module. 
+
+## Conclusion

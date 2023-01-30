@@ -49,5 +49,7 @@ Idea of our team
 ## Hardware for Arduino Uno and sensors
   * Alcohol detect sensor(MQ-3), force sensitive sensor (FSR 402)
   * LED, buzzer for warning
+
+
 <img src="/images/hardware3.jpg" width="50%" height="50%" title="used lazer cutter to make" alt="hardware3"></img>
 <img src="/images/hardware4.jpg" width="50%" height="50%" title="used lazer cutter to make" alt="hardware4"></img>

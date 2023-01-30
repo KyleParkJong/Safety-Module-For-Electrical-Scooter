@@ -71,7 +71,7 @@ Main Topic of the Hackaton
 <img src="/images/hardware3.jpg" width="40%" height="40%" title="used lazer cutter to make" alt="hardware3"></img>
 <img src="/images/hardware4.jpg" width="40%" height="40%" title="used lazer cutter to make" alt="hardware4"></img>
 
-## Object detected
+## Object detection
   * bump, stop sign, child protection zone sign
 
 <img src="/images/bump detected.png" width="50%" height="50%" title="bump" alt="bump"></img>

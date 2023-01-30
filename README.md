@@ -20,16 +20,17 @@ Idea of our team
 
 # Technical elements used in the safty module
 ## Object detection module
-  + Used light-weight AI model (ssd-mobilenet-v2)
+  + Used light-weight AI model (__ssd-mobilenet-v2__)
   + Used Colab, Tensorflow to train the AI and transformed into Tensorflow-Lite
   + Labeled, 500 photos per class, a total of 2000 photos
-  > Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
     * 4 Classes (Bump1, bump2, stop sign, child protection zone sign)
-    
-  <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
-  <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
-    
+    * Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
   + Mounted the trained model on Raspberry Pi
+    
+  <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
+  <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
+    
+  
 ## Preventing drunk driving module & Preventing one-handed driving module
   + Used Arduino Uno to implement
   + Utilized Alcohol detect sensor (MQ-3) and force sensitive sensor (FSR 402)

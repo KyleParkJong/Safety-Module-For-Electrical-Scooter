@@ -47,6 +47,12 @@ Main Topic of the Hackaton
 ## Preventing drunk driving module & Preventing one-handed driving module
   + Used Arduino Uno to implement
   + Utilized Alcohol detect sensor (MQ-3) and force sensitive sensor (FSR 402)
+
+
+## Socket communication
+  + Socktet communication between Raspberry Pi and PC using Python
+  + Server : Raspberry Pi, Client : PC
+  + Voice was recored by AI using "CLOVA Voice" provided by NAVER
   
 ## Hardware
   + Operated 3D printer to make case that is detachable to electrical scooter.
@@ -77,6 +83,3 @@ Main Topic of the Hackaton
 <img src="/images/bump detected.png" width="50%" height="50%" title="bump" alt="bump"></img>
 <img src="/images/stop.png" width="50%" height="50%" title="bump" alt="bump"></img>
 <img src="/images/child.png" width="50%" height="50%" title="bump" alt="bump"></img>
-
-
-

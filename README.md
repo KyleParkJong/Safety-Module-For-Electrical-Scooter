@@ -18,6 +18,12 @@ Idea of our team
 * Preventing drunk driving module
 * Preventing one-handed driving module
 
+# Overall Block-diagram
+
+<p align="center">
+<img src="/images/block_diagram.jpg" width="70%" height="70%" title="block-diagram" alt="block-diagram"></img>
+</p>
+
 # Technical elements used in the safty module
 ## Object detection module
   + Used light-weight AI model (__ssd-mobilenet-v2__)

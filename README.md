@@ -10,7 +10,7 @@ Idea of our team
 > __Detachable safety module for personal transportation(Electrical scooter)__
 
 <p align="center">
-<img src="https://blog.kakaocdn.net/dn/wC0bW/btqFOi7vdEx/IcfSRlJyPX3vQgtsTut1Ik/img.jpg" width="50%" height="50%" title="e-scooter" alt=" e-scooter"></img><br/>
+<img src="https://napiercbd.co.nz/wp-content/uploads/2022/11/Scooter-scaled.jpeg" width="50%" height="50%" title="e-scooter" alt=" e-scooter"></img><br/>
 </p>
 
 # Conposition of the safty module

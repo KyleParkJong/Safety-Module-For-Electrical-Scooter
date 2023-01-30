@@ -35,7 +35,7 @@ Main Topic of the Hackaton
   + Mounted the trained model on Raspberry Pi
   
   <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
-  <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
+  <img src="/images/data_augmentation.png" width="40%" height="40%" title="data augmentation" alt="data augmentation"></img>
   
   + Total Loss
   <img src="/images/total loss.png" width="60%" height="60%" title="total loss" alt="total loss"></img>

@@ -40,6 +40,8 @@ Idea of our team
 ## Hardware for Raspberry Pi and battery 
   * Made by 3D printer 
   * Forward direction is the camera direction
+
+
 ![hardware](/images/hardware1.png "3d design of the hardware")
 ![hardware](/images/hardware2.png "3d design of the hardware")
 

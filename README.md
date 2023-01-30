@@ -34,10 +34,13 @@ Idea of our team
 ## Preventing drunk driving module & Preventing one-handed driving module
   + Used Arduino Uno to implement
   + Utilized Alcohol detect sensor (MQ-3) and force sensitive sensor (FSR 402)
-
+  
 ## Hardware
   + Operated 3D printer to make case that is detachable to electrical scooter.
   + Utilized lazer cutter to produce the additional case of Arduino module. 
+
+<img src="/images/3d_design_of_hardware.png" width="40%" height="40%" title="3d" alt="3d"></img>
+<img src="/images/Lazer_cutter_design.png" width="40%" height="40%" title="lazer" alt="lazer"></img>
 
 # Conclusion
 # Hardware

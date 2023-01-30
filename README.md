@@ -31,10 +31,12 @@ Main Topic of the Hackaton
   + Labeled, 500 photos per class, a total of 2000 photos
     * 4 Classes (Bump1, bump2, stop sign, child protection zone sign)
     * Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
+  + Batch size = 16, Step number = 20,000 
   + Mounted the trained model on Raspberry Pi
-    
+  
   <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
   <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
+  
     
   
 ## Preventing drunk driving module & Preventing one-handed driving module

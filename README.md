@@ -43,6 +43,7 @@ Idea of our team
 ![hardware](/images/hardware1.png "3d design of the hardware")
 ![hardware](/images/hardware2.png "3d design of the hardware")
 
+
 ## Hardware for Arduino Uno and sensors
   * Alcohol detect sensor(MQ-3), force sensitive sensor (FSR 402)
   * LED, buzzer for warning

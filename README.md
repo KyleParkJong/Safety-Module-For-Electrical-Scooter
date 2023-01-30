@@ -10,7 +10,7 @@ Idea of our team
 > __Detachable safety module for personal transportation(Electrical scooter)__
 
 <p align="center">
-<img src="https://napiercbd.co.nz/wp-content/uploads/2022/11/Scooter-scaled.jpeg" width="50%" height="50%" title="e-scooter" alt=" e-scooter"></img><br/>
+<img src="https://napiercbd.co.nz/wp-content/uploads/2022/11/Scooter-scaled.jpeg" width="60%" height="60%" title="e-scooter" alt=" e-scooter"></img><br/>
 </p>
 
 # Conposition of the safty module
@@ -25,7 +25,10 @@ Idea of our team
   + Labeled, 500 photos per class, a total of 2000 photos
   > Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
     * 4 Classes (Bump1, bump2, stop sign, child protection zone sign)
-    * images
+    
+    <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
+    <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
+    
   + Mounted the trained model on Raspberry Pi
 ## Preventing drunk driving module & Preventing one-handed driving module
   + Used Arduino Uno to implement
@@ -53,3 +56,5 @@ Idea of our team
 
 <img src="/images/hardware3.jpg" width="40%" height="40%" title="used lazer cutter to make" alt="hardware3"></img>
 <img src="/images/hardware4.jpg" width="40%" height="40%" title="used lazer cutter to make" alt="hardware4"></img>
+
+

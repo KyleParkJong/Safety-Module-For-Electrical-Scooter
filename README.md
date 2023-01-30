@@ -51,5 +51,5 @@ Idea of our team
   * LED, buzzer for warning
 
 
-<img src="/images/hardware3.jpg" width="50%" height="50%" title="used lazer cutter to make" alt="hardware3"></img>
-<img src="/images/hardware4.jpg" width="50%" height="50%" title="used lazer cutter to make" alt="hardware4"></img>
+<img src="/images/hardware3.jpg" width="60%" height="60%" title="used lazer cutter to make" alt="hardware3"></img>
+<img src="/images/hardware4.jpg" width="60%" height="60%" title="used lazer cutter to make" alt="hardware4"></img>

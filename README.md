@@ -46,6 +46,8 @@ Main Topic of the Hackaton
   + Dataset Zip file : 
   [Dataset Zip.](https://drive.google.com/file/d/10ZfJUOkizyjtfJKfDM8rWhJRPPd94mFM/view?usp=sharing)
   
+  + Refer to this github : https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
+  
 ## Preventing drunk driving module & Preventing one-handed driving module
   + Used Arduino Uno to implement
   + Utilized Alcohol detect sensor (MQ-3) and force sensitive sensor (FSR 402)

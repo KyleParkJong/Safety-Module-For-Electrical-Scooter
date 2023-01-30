@@ -37,5 +37,5 @@ Idea of our team
 
 # Conclusion
 # Hardware
-![images](./images/hardware 1, "3d design of the hardware")
-![images](./images/hardware 2, "3d design of the hardware")
+![images](./images/hardware 1.png, "3d design of the hardware")
+![images](./images/hardware 2.png, "3d design of the hardware")

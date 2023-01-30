@@ -26,8 +26,8 @@ Idea of our team
   > Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
     * 4 Classes (Bump1, bump2, stop sign, child protection zone sign)
     
-    <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
-    <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
+  <img src="/images/data_augmentation.png" width="60%" height="60%" title="data augmentation" alt="data augmentation"></img>
+  <img src="/images/4_classes.jpg" width="40%" height="40%" title="dataset" alt="dataset"></img>
     
   + Mounted the trained model on Raspberry Pi
 ## Preventing drunk driving module & Preventing one-handed driving module

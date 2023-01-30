@@ -29,7 +29,7 @@ Idea of our team
   + Mounted the trained model on Raspberry Pi
 ## Preventing drunk driving module & Preventing one-handed driving module
   + Used Arduino Uno to implement
-  + Utilized Alcohol sensor (MQ-3) and force sensitive sensor (FSR 402)
+  + Utilized Alcohol detect sensor (MQ-3) and force sensitive sensor (FSR 402)
 
 ## Hardware
   + Operated 3D printer to make case that is detachable to electrical scooter.
@@ -37,5 +37,14 @@ Idea of our team
 
 # Conclusion
 # Hardware
-![Alt text](/images/hardware1.png "3d design of the hardware")
-![Alt text](/images/hardware2.png "3d design of the hardware")
+## Hardware for Raspberry Pi and battery 
+  * Made by 3D printer 
+  * Forward direction is the camera direction
+![hardware](/images/hardware1.png "3d design of the hardware")
+![hardware](/images/hardware2.png "3d design of the hardware")
+
+## Hardware for Arduino Uno and sensors
+  * Alcohol detect sensor(MQ-3), force sensitive sensor (FSR 402)
+  * LED, buzzer for warning
+![hardware](/images/hardware3.png "used lazer cutter")
+![hardware](/images/hardware4.png "used lazer cutter")

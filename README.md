@@ -10,7 +10,7 @@ Idea of our team
 > __Detachable safety module for personal transportation(Electrical scooter)__
 
 <p align="center">
-<img src="https://www.usfk.mil/portals/105/Images/Resources/Driving/eScooterKickboardSample2-SM_1.jpg" width="450px" height="400px" title="px(픽셀) 크기 설정" alt="personal transportation"></img><br/>
+<img src="https://www.usfk.mil/portals/105/Images/Resources/Driving/eScooterKickboardSample2-SM_1.jpg" width="50%" height="50%" title="e-scooter" alt=" e-scooter"></img><br/>
 </p>
 
 # Conposition of the safty module

@@ -1,5 +1,5 @@
-# Hackaton_Feb_2023
-Konkuk Univ. Hackaton (Feb 2023)
+# Hackaton_Jan_2023
+Konkuk Univ. Hackaton (Jan 2023)
 
 Main Topic of the Hackaton
 ==========================
@@ -13,7 +13,7 @@ Main Topic of the Hackaton
 <img src="https://napiercbd.co.nz/wp-content/uploads/2022/11/Scooter-scaled.jpeg" width="60%" height="60%" title="e-scooter" alt=" e-scooter"></img><br/>
 </p>
 
-# 1. Conposition of the safty module
+# 1. Composition of the safty module
 * Object detection module (Detecting bump, stop sign, child protection zone sign)
 * Preventing drunk driving module
 * Preventing one-handed driving module

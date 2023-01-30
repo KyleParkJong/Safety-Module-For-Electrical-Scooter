@@ -55,10 +55,10 @@ Main Topic of the Hackaton
 <img src="/images/3d_design_of_hardware.png" width="50%" height="50%" title="3d" alt="3d"></img>
 <img src="/images/Lazer_cutter_design.png" width="30%" height="30%" title="lazer" alt="lazer"></img>
 
-# 4. Conclusion
+# 4. Result
 ## Hardware for Raspberry Pi and battery 
   * Made by 3D printer 
-  * Forward direction is the camera direction
+  * Forward direction of scooter is the camera direction
 
 ![hardware](/images/hardware1.png "3d design of the hardware")
 ![hardware](/images/hardware2.png "3d design of the hardware")

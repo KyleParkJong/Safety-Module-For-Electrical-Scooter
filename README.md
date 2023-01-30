@@ -40,7 +40,7 @@ Idea of our team
   + Utilized lazer cutter to produce the additional case of Arduino module. 
 
 <img src="/images/3d_design_of_hardware.png" width="50%" height="50%" title="3d" alt="3d"></img>
-<img src="/images/Lazer_cutter_design.png" width="20%" height="20%" title="lazer" alt="lazer"></img>
+<img src="/images/Lazer_cutter_design.png" width="30%" height="30%" title="lazer" alt="lazer"></img>
 
 # Conclusion
 # Hardware

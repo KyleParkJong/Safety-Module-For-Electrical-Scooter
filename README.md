@@ -39,8 +39,8 @@ Idea of our team
   + Operated 3D printer to make case that is detachable to electrical scooter.
   + Utilized lazer cutter to produce the additional case of Arduino module. 
 
-<img src="/images/3d_design_of_hardware.png" width="40%" height="40%" title="3d" alt="3d"></img>
-<img src="/images/Lazer_cutter_design.png" width="40%" height="40%" title="lazer" alt="lazer"></img>
+<img src="/images/3d_design_of_hardware.png" width="50%" height="50%" title="3d" alt="3d"></img>
+<img src="/images/Lazer_cutter_design.png" width="20%" height="20%" title="lazer" alt="lazer"></img>
 
 # Conclusion
 # Hardware

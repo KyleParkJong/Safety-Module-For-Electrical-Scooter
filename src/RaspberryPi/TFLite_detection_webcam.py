@@ -25,10 +25,11 @@ import importlib.util
 import socket
 
 #Setting for socket interface
-HOST = '192.168.106.72' #IP
+HOST = '192.168.137.1' #IP
 PORT = 9999
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
+
 
 # Define VideoStream class to handle streaming of video from webcam in separate processing thread
 # Source - Adrian Rosebrock, PyImageSearch: https://www.pyimagesearch.com/2015/12/28/increasing-raspberry-pi-fps-with-python-and-opencv/
@@ -175,8 +176,12 @@ videostream = VideoStream(resolution=(imW,imH),framerate=30).start()
 start = -1
 time.sleep(1)
 
+#pre_object = ''
+
 #for frame1 in camera.capture_continuous(rawCapture, format="bgr",use_video_port=True):
 while True:
+    cnt = 0
+    #start = time.time()
     # Start timer (for calculating frame rate)
     t1 = cv2.getTickCount()
 
@@ -201,7 +206,7 @@ while True:
     boxes = interpreter.get_tensor(output_details[boxes_idx]['index'])[0] # Bounding box coordinates of detected objects
     classes = interpreter.get_tensor(output_details[classes_idx]['index'])[0] # Class index of detected objects
     scores = interpreter.get_tensor(output_details[scores_idx]['index'])[0] # Confidence of detected objects
-
+    
     # Loop over all detections and draw detection box if confidence is above minimum threshold
     for i in range(len(scores)):
         if ((scores[i] > min_conf_threshold) and (scores[i] <= 1.0)):
@@ -223,15 +228,14 @@ while True:
             cv2.rectangle(frame, (xmin, label_ymin-labelSize[1]-10), (xmin+labelSize[0], label_ymin+baseLine-10), (255, 255, 255), cv2.FILLED) # Draw white box to put label text in
             cv2.putText(frame, label, (xmin, label_ymin-7), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2) # Draw label text
             
-            pre_detected = object_name
             
             if (object_name == 'bump1' or object_name == 'bump2'):
                 # Socket to rasp_zero
-                message = str('bump1')
+                message = str('bump')
                 end = time.time()
-                time_delay = end-start
+                time_delay = end - start
                 if (time_delay >= 2):
-                    client_socket.sendall(message.encode())
+                    client_socket.send(message.encode())
                     start = end
                 else:
                     start = time.time()
@@ -242,18 +246,31 @@ while True:
             elif (object_name == 'child'):
                 # Socket to rasp_zero
                 message = str('child')
-                client_socket.sendall(message.encode())
-                data = client_socket.recv(1024)
-                print(' Received from the server:', repr(data.decode()))
+                end = time.time()
+                time_delay = end - start
+                if (time_delay >= 2):
+                    client_socket.send(message.encode())
+                    start = end
+                else:
+                    start = time.time()
+                #data = client_socket.recv(1024)
+                #print(' Received from the server:', repr(data.decode()))
                 
                 
             elif (object_name == 'stop'):
                 # Socket to rasp_zero
                 message = str('stop')
-                client_socket.sendall(message.encode())
-                data = client_socket.recv(1024)
-                print(' Received from the server:', repr(data.decode()))
-                
+                end = time.time()
+                time_delay = end - start
+                if (time_delay >= 2):
+                    client_socket.send(message.encode())
+                    start = end
+                else:
+                    start = time.time()
+                #data = client_socket.recv(1024)
+                #print(' Received from the server:', repr(data.decode()))
+            
+            #pre_object = object_name
             
 
     # Draw framerate in corner of frame
@@ -266,7 +283,9 @@ while True:
     t2 = cv2.getTickCount()
     time1 = (t2-t1)/freq
     frame_rate_calc= 1/time1
-
+    
+    #end = time.time()
+    #print(f'{end-start :.5f} sec')
     # Press 'q' to quit
     if cv2.waitKey(1) == ord('q'):
         break

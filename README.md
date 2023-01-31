@@ -60,10 +60,10 @@ Main Topic of the Hackaton
   
 ## Hardware
   + Operated 3D printer to make case that is detachable to electrical scooter.
-  + Utilized lazer cutter to produce the additional case of Arduino module. 
+  + Utilized laser cutter to produce the additional case of Arduino module. 
 
 <img src="/images/3d_design_of_hardware.png" width="50%" height="50%" title="3d" alt="3d"></img>
-<img src="/images/Lazer_cutter_design.png" width="30%" height="30%" title="lazer" alt="lazer"></img>
+<img src="/images/Laser_cutter_design.png" width="30%" height="30%" title="laser" alt="laser"></img>
 
 # 4. Result
 ## Hardware for Raspberry Pi and battery 
@@ -78,8 +78,8 @@ Main Topic of the Hackaton
   * Alcohol detect sensor(MQ-3), force sensitive sensor (FSR 402)
   * LED, buzzer for warning
 
-<img src="/images/hardware3.jpg" width="40%" height="40%" title="used lazer cutter to make" alt="hardware3"></img>
-<img src="/images/hardware4.jpg" width="40%" height="40%" title="used lazer cutter to make" alt="hardware4"></img>
+<img src="/images/hardware3.jpg" width="40%" height="40%" title="used laser cutter to make" alt="hardware3"></img>
+<img src="/images/hardware4.jpg" width="40%" height="40%" title="used laser cutter to make" alt="hardware4"></img>
 
 ## Object detection
   * bump, stop sign, child protection zone sign

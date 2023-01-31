@@ -13,7 +13,7 @@ Main Topic of the Hackaton
 <img src="https://napiercbd.co.nz/wp-content/uploads/2022/11/Scooter-scaled.jpeg" width="60%" height="60%" title="e-scooter" alt=" e-scooter"></img><br/>
 </p>
 
-# 1. Composition of the safty module
+# 1. Composition of our safty module
 * Object detection module (Detecting bump, stop sign, child protection zone sign)
 * Preventing drunk driving module
 * Preventing one-handed driving module

@@ -7,7 +7,7 @@ Main Topic of the Hackaton
 
 0.Idea of our team
 --------------------
-> __Detachable safety module for personal transportation(Electrical scooter)__
+> __Detachable safety module for personal transportation (Electrical scooter)__
 
 <p align="center">
 <img src="https://napiercbd.co.nz/wp-content/uploads/2022/11/Scooter-scaled.jpeg" width="60%" height="60%" title="e-scooter" alt=" e-scooter"></img><br/>

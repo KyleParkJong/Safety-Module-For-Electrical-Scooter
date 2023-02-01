@@ -30,7 +30,7 @@ Main Topic of the Hackaton
   + Used Colab, Tensorflow to train the AI and transformed into Tensorflow-Lite
   + Labeled, 500 photos per class, a total of 2000 photos
     * 4 Classes (Bump1, bump2, stop sign, child protection zone sign)
-    * Augmented image data by randomly applying light, contrast, tilt, and left-right inversion
+    * Augmented image data by arbitrary application of brightness, saturation, contrast, flip, and rotate
   + Batch size = 16, Step number = 20,000 
   + Mounted the trained model on Raspberry Pi
   

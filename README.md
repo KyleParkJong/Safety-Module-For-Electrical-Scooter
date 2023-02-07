@@ -6,7 +6,6 @@ Main Topic of the Hackaton
 > *Developing and upgrading ideas that can solve problems that arise in the process of implementing future transportation by establishing a team under the theme of future transportation. (electric vehicles, hydrogen vehicles, autonomous AI, drones, UAM, individual transportation, etc)*
 
 # 0. Idea of our team
---------------------
 > __Detachable safety module for personal transportation (Electrical scooter)__
 
 <p align="center">

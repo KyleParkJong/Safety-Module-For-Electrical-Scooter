@@ -1,5 +1,5 @@
 # Hackaton_Jan_2023
-Konkuk Univ. Hackaton (Jan 2023) - 박종혁(팀장), 윤정훈, 임준하, 이유진
+Konkuk Univ. Hackaton (Jan 2023) - Park Jonghyuk(Team leader), 윤정훈, 임준하, 이유진
 
 Main Topic of the Hackaton
 ==========================
